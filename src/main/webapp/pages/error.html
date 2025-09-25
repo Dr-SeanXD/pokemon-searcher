@@ -1,0 +1,50 @@
+<!-- This is a page where the web application redirects to when users enter invalid ID -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error - Pokémon Search</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            color: #333;
+            text-align: center;
+            padding: 50px;
+        }
+        .container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            display: inline-block;
+        }
+        h1 {
+            color: #ff4c4c;
+        }
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            text-decoration: none;
+            background-color: #ff4c4c;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        a:hover {
+            background-color: #e04343;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <!-- Display the error message -->
+    <h1>Error: Invalid Pokémon ID</h1>
+    <p>The Pokémon ID you provided was invalid or out of bounds (valid range: 1 ~ 1025).</p>
+
+    <!-- Button redirecting to the search page -->
+    <a href="/pages/search.html">Go Back to Search</a>
+</div>
+</body>
+</html>
